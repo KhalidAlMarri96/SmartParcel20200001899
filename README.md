@@ -1,1 +1,40 @@
-# SmartParcel20200001899SmartParcel is a cloud-native parcel tracking system built for the **NET_214 Network Programming** project.## Student Information- **Student Name:** Khalid Al Marri- **Student ID:** 20200001899- **Course:** NET_214 — Network Programming- **Semester:** Spring 2026## Project DescriptionThis project is a parcel tracking API built with Python Flask and deployed on AWS EC2.  It supports parcel creation, parcel tracking, status updates, cancellation, health check, and concurrent request handling.## Main Features- Create a parcel- Get parcel details- Update parcel status- List parcels- Cancel a parcel- Health check endpoint- Basic API key authentication- Concurrent handling using Flask/Gunicorn- AWS integration for cloud deployment## Files- `app.py` → main Flask application- `lab_test.py` → test script- `README.md` → project setup and usage instructions## Requirements- Python 3- Flask- Requests- boto3- gunicorn## Install Dependencies```bashpip install flask requests boto3 gunicorn
+# SmartParcel20200001899
+
+SmartParcel is a cloud-native parcel tracking system built for the **NET_214 Network Programming** project.
+
+## Student Information
+- **Student Name:** Khalid Al Marri
+- **Student ID:** 20200001899
+- **Course:** NET_214 — Network Programming
+- **Semester:** Spring 2026
+
+## Project Description
+This project is a parcel tracking API built with Python Flask and deployed on AWS EC2.  
+It supports parcel creation, parcel tracking, status updates, cancellation, health check, and concurrent request handling.
+
+## Main Features
+- Create a parcel
+- Get parcel details
+- Update parcel status
+- List parcels
+- Cancel a parcel
+- Health check endpoint
+- Basic API key authentication
+- Concurrent handling using Flask/Gunicorn
+- AWS integration for cloud deployment
+
+## Files
+- `app.py` → main Flask application
+- `lab_test.py` → test script
+- `README.md` → project setup and usage instructions
+
+## Requirements
+- Python 3
+- Flask
+- Requests
+- boto3
+- gunicorn
+
+## Install Dependencies
+```bash
+pip install flask requests boto3 gunicorn
